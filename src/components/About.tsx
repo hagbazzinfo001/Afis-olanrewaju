@@ -62,7 +62,7 @@ const About: React.FC = () => {
               <img
                 src="/src/images/HEADSHOT.jpg"
                 // src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Alex Morgan working"
+                alt="Afis olamrewaju"
                 className="w-full h-full object-cover rounded-lg shadow-lg"
               />
             </div>

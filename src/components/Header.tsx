@@ -71,7 +71,7 @@ const Header: React.FC = () => {
               src="https://i.postimg.cc/m2BTQmhm/PHOTO-2025-05-13-11-10-54.jpg?auto=compress&cs=tinysrgb&w=180"
               // src="/src/images/HEADSHOT.jpg"
               // src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=180"
-              alt="Alex Morgan"
+              alt="Abdulafis Olanrawaju"
               className="w-10 h-10 rounded-full border-2 border-primary-500 mr-4"
             />
             <a
@@ -120,7 +120,7 @@ const Header: React.FC = () => {
             <div className="flex items-center justify-between pt-4 border-t border-gray-200">
               <div className="flex items-center">
                 <img
-                  src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=180"
+                  src="/src/images/HEADSHOT.jpg"
                   alt="Abdulafis Olanrawaju"
                   className="w-10 h-10 rounded-full border-2 border-primary-500 mr-3"
                 />

@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
         "Need to maintain operation during phased rollout",
         "Integration with varied regional workflows and requirements",
       ],
-      role: "Senior Product Manager",
+      role: "  Product Manager",
       contributions: [
         "Led cross-functional team of 15 members across 3 time zones",
         "Created comprehensive product roadmap and strategy",
@@ -45,42 +45,12 @@ const Projects: React.FC = () => {
     },
     {
       id: 2,
-      title: "Healthcare Patient Portal",
-      client: "National Hospital Network",
-      image:
-        "https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      shortDesc:
-        "Developed a HIPAA-compliant patient portal connecting patients with healthcare providers.",
-      objectives: [
-        "Create secure, HIPAA-compliant patient access to medical records",
-        "Reduce administrative workload by 30%",
-        "Improve patient engagement and satisfaction",
-        "Enable virtual appointment scheduling and telehealth integration",
-      ],
-      challenges: [
-        "Strict regulatory compliance requirements",
-        "Integration with multiple electronic health record systems",
-        "Ensuring user-friendly experience for diverse patient demographics",
-      ],
-      role: "Product Manager",
-      contributions: [
-        "Defined product vision and strategy aligned with hospital network goals",
-        "Collaborated with legal and compliance teams on HIPAA requirements",
-        "Created detailed user personas across 5 patient demographics",
-        "Drove agile development through 8 sprint cycles to MVP launch",
-      ],
-      tools: ["jira", "Notion", "Tableau", "Pendo", "InVision"],
-      outcome:
-        "Reduced administrative calls by 43%, increased patient portal adoption to 78%, and improved patient satisfaction scores by 24%.",
-    },
-    {
-      id: 3,
-      title: "E-commerce Platform Optimization",
-      client: "Retail Fashion Brand",
+      title: "InvoiceU ",
+      client: "Web-Based Invoicing Platform",
       image:
         "https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       shortDesc:
-        "Optimized user experience and conversion rates for a premium fashion e-commerce platform.",
+        "A comprehensive online invoicing solution streamlining financial management for businesses. It featurescustomizable templates, client and project management. Currently under development, targeting a web platform only.",
       objectives: [
         "Increase conversion rate by 15%",
         "Reduce cart abandonment by 20%",
@@ -99,16 +69,46 @@ const Projects: React.FC = () => {
         "Defined KPIs and analytics framework for measuring success",
         "Managed implementation of AI-powered recommendation engine",
       ],
-      tools: [
-        "Google Analytics",
-        "Hotjar",
-        "Optimizely",
-        "Amplitude",
-        "Mixpanel",
-      ],
+      tools: ["jira", "Notion", "Tableau", "Pendo", "InVision"],
       outcome:
         "Increased conversion rate by 23%, reduced cart abandonment by 34%, and grew average order value by 18%.",
     },
+    // {
+    //   id: 3,
+    //   title: "E-commerce Platform Optimization",
+    //   client: "Retail Fashion Brand",
+    //   image:
+    //     "https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    //   shortDesc:
+    //     "Optimized user experience and conversion rates for a premium fashion e-commerce platform.",
+    //   objectives: [
+    //     "Increase conversion rate by 15%",
+    //     "Reduce cart abandonment by 20%",
+    //     "Improve mobile shopping experience",
+    //     "Implement personalized recommendation engine",
+    //   ],
+    //   challenges: [
+    //     "High customer expectations for premium brand experience",
+    //     "Complex inventory management across multiple warehouses",
+    //     "Seasonal variations in traffic and purchasing patterns",
+    //   ],
+    //   role: "Product Manager",
+    //   contributions: [
+    //     "Led A/B testing strategy across 12 key customer journey touchpoints",
+    //     "Collaborated with UX team to reimagine checkout flow",
+    //     "Defined KPIs and analytics framework for measuring success",
+    //     "Managed implementation of AI-powered recommendation engine",
+    //   ],
+    //   tools: [
+    //     "Google Analytics",
+    //     "Hotjar",
+    //     "Optimizely",
+    //     "Amplitude",
+    //     "Mixpanel",
+    //   ],
+    //   outcome:
+    //     "Increased conversion rate by 23%, reduced cart abandonment by 34%, and grew average order value by 18%.",
+    // },
   ];
 
   const openProjectModal = (projectId: number) => {

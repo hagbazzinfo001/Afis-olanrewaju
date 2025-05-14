@@ -1,29 +1,26 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronRight, ChevronLeft } from "lucide-react";
-import HEADSHOT from "../images/HEADSHOT.jpg";
 const Hero: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
     {
-      image: "https://i.postimg.cc/m2BTQmhm/PHOTO-2025-05-13-11-10-54.jpg",
-
+      // image: "https://i.postimg.cc/m2BTQmhm/PHOTO-2025-05-13-11-10-54.jpg",
+      image: "/src/images/HEADSHOT.jpg",
       // "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       title: "Strategic Product Management",
       description: "Turning visions into successful products",
     },
     {
-      image:
-        // {HEADSHOT}
+      image: "/src/images/PHOTO-2025-05-13-11-10-55.jpg",
 
-        "https://i.postimg.cc/m2BTQmhm/PHOTO-2025-05-13-11-10-54.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      // "https://i.postimg.cc/m2BTQmhm/PHOTO-2025-05-13-11-10-54.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       title: "Agile Project Leadership",
       description: "Delivering value through adaptive methodologies",
     },
     {
-      image:
-        "https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "/src/images/PHOTO-2025-05-13-11-16-58.jpg", // "https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       title: "User-Centered Solutions",
       description: "Creating experiences that users love",
     },
@@ -60,7 +57,7 @@ const Hero: React.FC = () => {
           >
             <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
             <img
-              src={HEADSHOT}
+              src={slide.image}
               alt={slide.title}
               className="w-full h-full object-cover"
             />
