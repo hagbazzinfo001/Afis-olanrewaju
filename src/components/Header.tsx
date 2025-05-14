@@ -120,7 +120,7 @@ const Header: React.FC = () => {
             <div className="flex items-center justify-between pt-4 border-t border-gray-200">
               <div className="flex items-center">
                 <img
-                  src="/src/images/HEADSHOT.jpg"
+                  src="/images/HEADSHOT.jpg"
                   alt="Abdulafis Olanrawaju"
                   className="w-10 h-10 rounded-full border-2 border-primary-500 mr-3"
                 />
