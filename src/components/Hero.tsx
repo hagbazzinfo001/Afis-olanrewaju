@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       description: "Turning visions into successful products",
     },
     {
-      image: "/images/PHOTO-2025-05-13-11-10-55.jpg",
+      image: "/images/PHOTO-2025-05-13-11-10-50.jpg",
 
       // "https://i.postimg.cc/m2BTQmhm/PHOTO-2025-05-13-11-10-54.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       title: "Agile Project Leadership",
@@ -84,15 +84,6 @@ const Hero: React.FC = () => {
           >
             Hello, I'm <span className="font-bold">Abdulafis Olanrewaju </span>.
             A passionate Product Manager with 2+ years of experience{" "}
-            {/* Accomplished product manager with over two years of experience
-            delivering innovative, user-centric solutions and driving measurable
-            results. Spearheaded the development of a student-focused e-commerce
-            platform specializing in buying and selling, achieving significant
-            market penetration. Leveraged project management expertise to lead
-            initiatives, including organizing high-impact events with 2,500+
-            attendees and securing ₦7 million in sponsorships. Adept at aligning
-            cross functional teams, managing timelines, and exceeding stakeholder
-            expectations through a results-driven approach. */}
             {slides[currentSlide].description.toLowerCase()}.
           </motion.p>
           <motion.div

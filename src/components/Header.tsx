@@ -42,7 +42,17 @@ const Header: React.FC = () => {
           className="flex items-center"
         >
           <a href="#" className="text-2xl font-bold text-primary-500">
-            Abdulafis<span className="text-secondary-500"> O.</span>
+            {" "}
+            <span
+              className={`font-display text-2xl font-semibold ${
+                isScrolled
+                  ? "text-2xl font-bold text-primary-500"
+                  : "text-white"
+              }`}
+            >
+              Abdulafis
+            </span>
+            <span className="text-secondary-500"> O.</span>
           </a>
         </motion.div>
 
@@ -60,7 +70,7 @@ const Header: React.FC = () => {
               className={`text-sm font-medium transition-colors duration-200 ${
                 isScrolled
                   ? "text-gray-800 hover:text-primary-500"
-                  : "text-gray-800 hover:text-primary-500"
+                  : "text-white hover:text-primary-500"
               }`}
             >
               {link.name}

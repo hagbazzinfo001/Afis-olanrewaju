@@ -118,9 +118,7 @@ const About: React.FC = () => {
                   size={20}
                 />
                 <div>
-                  <h5 className="font-medium">
-                    Project Management Professional (PMP)
-                  </h5>
+                  <h5 className="font-medium">Product Management</h5>
                   <p className="text-sm text-gray-600">Grazac Academy, 2024</p>
                 </div>
               </div>
