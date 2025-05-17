@@ -93,7 +93,7 @@ const Hero: React.FC = () => {
             className="flex flex-col sm:flex-row gap-4"
           >
             <a href="#projects" className="btn btn-primary">
-              View My Work
+              View My Works
               <ArrowRight className="ml-2" size={18} />
             </a>
             <a href="#contact" className="btn btn-secondary">

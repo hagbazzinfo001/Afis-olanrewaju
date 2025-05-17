@@ -105,7 +105,9 @@ const About: React.FC = () => {
                   size={20}
                 />
                 <div>
-                  <h5 className="font-medium">Bsc, Aquaculture</h5>
+                  <h5 className="font-medium">
+                    Bsc, Aquaculture And Fisheries Management
+                  </h5>
                   <p className="text-sm text-gray-600">
                     Federal University of Agriculture Abeokuta, 2019-2024
                   </p>

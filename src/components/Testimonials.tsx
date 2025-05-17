@@ -7,27 +7,31 @@ const Testimonials: React.FC = () => {
 
   const testimonials = [
     {
+      quote: `Abdulafis is a very dedicated and passionate person towards work. As our product manager he made sure to keep tabs and due diligence on every aspect of the project. His attitude and positivity towards work kept the team spirit together for us to keep pushing.
+Abdulafis is a very outspoken and an outstanding individual since I have known him and I can trust that he'll pull off bigger projects and tasks in the near future.`,
+      author: "Taiwo Ghazal",
+      position: "Backend Developer, MarketPlace Afrika",
+      image: "/images/gazal.jpg",
+    },
+    {
+      quote: `I have worked with Abdulafis's on several projects and have consistently been impressed by his ability to connect with people and adapt quickly. His proactive attitude and commitment to excellence make him a reliable team player.Abdulafis's transition into product and project management reflects his growth, creativity, and ambition. He is a fast learner who brings value to every role, and I highly recommend him for opportunities in this space.`,
+      author: "Fadlullahi Olamilekan",
+      position: "Partnership & Marketing Lead, WASSET",
+      image: "/images/fadullah.jpg",
+    },
+    {
+      quote: `I had the pleasure of working with Abdul Afis, and I must say he is an exceptional professional. He brings a rare blend of creativity, commitment, and attention to detail to every task. His ability to take initiative and deliver quality results, often ahead of schedule, sets him apart.
+Abdul is not only skilled but also very collaborative and respectful in his communication. He’s someone you can count on to add value to any team or project he’s part of. I look forward to seeing all the amazing things he continues to achieve.`,
+      author: "Bakare Mariam Oyinade",
+      position: "Digital Marketing Associate, Focal Imprintx Media",
+      image: "/images/Mariam.jpg",
+    },
+    {
       quote:
         "Abdulafis's strategic approach to product management transformed our outdated CRM into a powerful tool that our teams actually enjoy using. The thorough research and planning phases ensured we delivered exactly what our users needed.",
       author: "owolabi Agbabiaka",
       position: "Software Engineer",
       image: "https://i.postimg.cc/yxwg4krP/IMG-0667-removebg.png",
-    },
-    {
-      quote:
-        "Working with Alex on our healthcare portal was a game-changer. Their ability to balance technical requirements with user needs while navigating complex regulatory requirements was impressive. The result speaks for itself with our record-high user adoption rates.",
-      author: "Dr. Michael Chen",
-      position: "Chief Digital Officer, National Hospital Network",
-      image:
-        "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    },
-    {
-      quote:
-        "Alex has a rare talent for simplifying complex problems. Their leadership on our e-commerce platform optimization delivered incredible results - conversion rates up 23% and cart abandonment down 34%. They consistently exceed expectations.",
-      author: "Rebecca Torres",
-      position: "Director of Digital, Retail Fashion Brand",
-      image:
-        "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
   ];
 
