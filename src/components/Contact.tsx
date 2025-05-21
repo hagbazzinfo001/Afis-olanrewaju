@@ -322,7 +322,7 @@ const Contact: React.FC = () => {
                 history, and professional qualifications.
               </p>
               <a
-                href="/public/Abdulafis Olanrewaju's CV.pdf"
+                href="/Abdulafis Olanrewaju's CV.pdf"
                 download
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent 
                          text-base font-medium rounded-md bg-white text-primary-600 hover:bg-gray-100
