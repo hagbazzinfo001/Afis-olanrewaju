@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: "Marketplace Afrika",
       client: "Multi-platform e-commerce solution",
-      image: "https://i.postimg.cc/pV7VkpJS/download-12.jpg",
+      image: "/images/afrikka.jpg",
       shortDesc:
         "An e-commerce platform available on both web and mobile, designed for buying and selling. It features catalog management, payment processing, and financing options, along with housing opportunities tailored for students. Focused on streamlining transactions, Marketplace Afrika empowers users with an easy-to-use interface for seamless engagement in the digital marketplace.",
       // "Led the redesign of a legacy CRM system serving 5000+ users across 30 countries.",

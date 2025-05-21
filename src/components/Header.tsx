@@ -85,7 +85,7 @@ const Header: React.FC = () => {
               className="w-10 h-10 rounded-full border-2 border-primary-500 mr-4"
             />
             <a
-              href="/ABDULAFIS O. RESUME.pdf"
+              href="/Abdulafis Olanrewaju's CV.pdf"
               download
               className="btn btn-secondary flex items-center text-sm"
             >
@@ -137,7 +137,7 @@ const Header: React.FC = () => {
                 <span className="text-sm font-medium">Abdulafis O. </span>
               </div>
               <a
-                href="/ABDULAFIS O. RESUME.pdf"
+                href="/Abdulafis Olanrewaju's CV.pdf"
                 download
                 className="btn btn-secondary flex items-center text-sm"
               >
