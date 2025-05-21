@@ -9,7 +9,7 @@ const Testimonials: React.FC = () => {
     {
       quote: `Abdulafis is a very dedicated and passionate person towards work. As our product manager he made sure to keep tabs and due diligence on every aspect of the project. His attitude and positivity towards work kept the team spirit together for us to keep pushing.
 Abdulafis is a very outspoken and an outstanding individual since I have known him and I can trust that he'll pull off bigger projects and tasks in the near future.`,
-      author: "Taiwo Ghazal",
+      author: "Shuaib Al-Ghazali",
       position: "Backend Developer, MarketPlace Afrika",
       image: "/images/gazal.jpg",
     },
